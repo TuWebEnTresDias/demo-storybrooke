@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             const whatsappUrl = `https://wa.me/5491138386233?text=${encodeURIComponent(whatsappMessage)}`;
             
-            window.open(whatsappUrl, '_blank');
+            window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
         });
     }
 
@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const whatsappMessage = `Hola! Me quiero suscribir al newsletter de Storybrooke Buenos Aires.\n\nMi email: ${email}`;
                 const whatsappUrl = `https://wa.me/5491138386233?text=${encodeURIComponent(whatsappMessage)}`;
                 
-                window.open(whatsappUrl, '_blank');
+                window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
                 this.reset();
                 alert('¡Gracias por suscribirte! Te contactaremos pronto.');
             }
